@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Daily Progress Report",
+  "name": "Update task status, Labour count, Expenses and Inventory",
   "icons": [
     {
       "src": "favicon.ico",

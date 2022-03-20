@@ -1,0 +1,111 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #444444;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+.header {
+  background: #163f58;
+  height: 56px;
+  width: 100%;
+  top: 0;
+  /* position: fixed; */
+}
+/* a {
+  color: #1acc8d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #34e5a6;
+  text-decoration: none;
+} */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+.date {
+  padding: 0;
+}
+.date h3 {
+  font-size: 16px;
+  color: #3e4347;
+}
+.project {
+  background: #fff;
+  margin-top: 24px;
+}
+
+.project .card {
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 16px 16px 16px 16px;
+}
+.project .card h3 {
+  font-size: 16px;
+  color: #3e4347;
+}
+.project .card a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #6d6d6d;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.project .card a:hover {
+  font-weight: 700;
+}
+.project .card .circle {
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+  border-radius: 100px;
+  background: #f7f7f7;
+  border: 1px solid #b8b8b8;
+  align-items: center;
+  display: flex;
+  /* box-sizing: border-box; */
+}
+.project .card .circle i {
+  color: #f7f7f7;
+}
+.project .card .circle:hover {
+  background: #31a05f;
+}
+
+.dropdown {
+  max-width: 300px;
+  margin-top: 80px;
+}
+@media (max-width: 575px) {
+  .dropdown {
+    max-width: 100%;
+  }
+}
+.takePhoto {
+  position: absolute;
+  align-self: center;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: #163f58;
+}
+.webcam {
+  width: 100%;
+  /* position: absolute; */
+  height: 100%;
+  /* z-index: -6;
+  border: #444444;
+  border-width: 10px; */
+  background: #444444;
+}
+.clickphoto {
+  background: #444444;
+  /* padding-bottom: 200px; */
+}
